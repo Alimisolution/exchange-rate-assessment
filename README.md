@@ -11,8 +11,7 @@ This project is a currency exchange website built with React and the Exchange AP
 
 ### Installation
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/currency-exchange.git
+   git clone https://github.com/Alimisolution/exchange-rate-assessment.git
    cd currency-exchange
 
 2. Install dependencies:
