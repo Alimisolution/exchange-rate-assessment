@@ -12,7 +12,7 @@ This project is a currency exchange website built with React and the Exchange AP
 ### Installation
 1. Clone the repository:
    git clone https://github.com/Alimisolution/exchange-rate-assessment.git
-   cd currency-exchange
+   cd exchange-rate-assessment
 
 2. Install dependencies:
     npm install
