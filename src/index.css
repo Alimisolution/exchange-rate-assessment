@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  font-family: "inter", sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+*{
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
