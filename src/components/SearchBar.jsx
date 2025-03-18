@@ -8,15 +8,15 @@ const SearchBar = () => {
   const filteredCurrencies = currencies.filter(currency => currency.toLowerCase().includes(searchTerm.toLowerCase()));
 
   return (
-    <div className="mb-4">
+    <div className="mb-8">
       <input
         type="text"
         placeholder="Search currencies..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
-        className="border p-2"
+        className="border p-2 mb-3"
       />
-      <ul>
+      <ul className='grid md:grid-cols-12 sm:grid-cols-8 grid-cols-6'>
         {filteredCurrencies.map(currency => (
           <li key={currency}>{currency}</li>
         ))}
